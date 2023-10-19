@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Generate a </h3>
+        <h2>Random Password</h2>
+        <hr>
+        <div class="genrate">
+            <input type="text" name="" id="qrtext" placeholder=" Password" readonly onclick="check()" >
+            <button onclick="copyPassword()" class="copyBtn">
+                <svg width="25" height="39" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#1F2667" stroke-width="2" fill="none" fill-rule="evenodd">
+                      <path d="M5 5h7v11H5z"></path>
+                      <path d="M1 15V1h10"></path>
+                    </g>
+                    </svg>
+            </button>
+        </div>
+       
+        <button onclick="genrateThePassword()" class="btn">Generate Password</button>
+
+        <div id="imgBox" class="imgbox">
+            <img src="" id="qrimg">
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
